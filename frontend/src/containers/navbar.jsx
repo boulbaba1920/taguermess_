@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import '../components/styles.css'
+
 import { NavLink } from 'react-router-dom';
 
   const path = window.location.pathname;
@@ -11,7 +11,9 @@ class navbar extends Component {
       <header className>
       <nav className="navbar navbar-expand-lg">
         <div className="container">
-          <a className="navbar-brand" href="index.html"><h2>Sneakers <em>Outlet</em></h2></a>
+        <a class="navbar-brand" href="#">
+          <img src="https://taguermessmarket.com/wp-content/uploads/2022/03/Taguermess-3-2.png" width="100" height="100" alt=""></img>
+         </a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon" />
           </button>

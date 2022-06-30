@@ -142,37 +142,89 @@ export default class Home extends React.Component {
          ))}
       
            
-              
+      <div>
+  <section className="section features" id="features">
+    <div className="container">
+      <h2 className="h2 section-title underline">Looking for the best products?</h2>
+      <ul className="features-list">
+        <li>
+          <div className="features-card">
+            <div className="icon">
+              <ion-icon name="share-social-outline" />
+            </div>
+            <div className="content">
+              <h3 className="h3 title">Best Quality</h3>
+              <div className="">
+                <ul className="featured-list">
+                <li><a href="#">Taguermess Provide you with high quality of Artisan products</a></li>
+                 
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <br /><br />
+        <li>
+          <div className="features-card">
+            <div className="icon">
+              <ion-icon name="color-palette-outline" />
+            </div>
+            <div className="content">
+              <h3 className="h3 title">All countries Shipping</h3>
+              <div className="">
+                <ul className="featured-list">
+                <li><a href="#">Tunisian Artisanal Products in all countries (olive wood / ceramics / Fouta / Halfa)</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <figure className="features-banner">
+        <img src="/assets/images/like it.png" width={370} height={318} loading="lazy" alt="Features Banner" className="w-100 banner-animation" />
+      </figure>
+      <ul className="features-list">
+        <li>
+          <div className="features-card">
+            <div className="icon">
+              <ion-icon name="code-slash-outline" />
+            </div>
+            <div className="content">
+              <h3 className="h3 title">Best Offers</h3>
+              <div className="">
+                <ul className="featured-list">
+                <li><a href="#">We have the best offers</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <br /><br />
+        <li>
+          <div className="features-card">
+            <div className="icon">
+              <ion-icon name="rocket-outline" />
+            </div>
+            <div className="content">
+              <h3 className="h3 title">Secure Payments</h3>
+              <div className="">
+                <ul className="featured-list">
+                <li><a href="#">We provide you with secure payments methods</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+</div>
+     
         
       
        
        
-        <div className="best-features">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-12">
-                <div className="section-heading">
-                  <h2>About Sneakers Outlet</h2>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="left-content">
-                  <h4>Looking for the best products?</h4>
-                  <ul className="featured-list">
-                    <li><a href="#">disc</a></li>
-                    <li><a href="#">disc</a></li>
-                  </ul>
-                  <a href="about.html" className="filled-button">Read More</a>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="right-image">
-                  <img src="assets/images/feature-image.jpg" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      
         <Footer></Footer>
       </div></div></div></div>
 

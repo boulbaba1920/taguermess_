@@ -12,7 +12,7 @@ class navbar extends Component {
       <nav className="navbar navbar-expand-lg">
         <div className="container">
         <a class="navbar-brand" href="#">
-          <img src="https://taguermessmarket.com/wp-content/uploads/2022/03/Taguermess-3-2.png" width="100" height="100" alt=""></img>
+          <img src="https://taguermessmarket.com/wp-content/uploads/2022/03/Taguermess-3-2.png" width="150" height="150" alt=""></img>
          </a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon" />

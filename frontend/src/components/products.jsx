@@ -14,7 +14,7 @@ export default class Products extends React.Component {
             <div className="col-md-12">
                  <div className="text-content">
                  <h4>new arrivals</h4>
-                 <h2>Sneakers Outlet</h2>
+                 <h2>Taguermes Market</h2>
             </div>
            </div>
          </div>

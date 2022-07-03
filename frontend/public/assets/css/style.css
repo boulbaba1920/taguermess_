@@ -667,6 +667,10 @@ footer .inner-content p a {
 
 .team-members {
 	margin-top: 100px;
+	width: 800px;
+	height: 400px;
+	margin-left: 150px;
+	margin-bottom: 10px;
 }
 
 .team-member {
@@ -929,6 +933,7 @@ footer .inner-content p a {
 		width: 90%;
 		margin-left: 5%;
 	}
+
 	.banner .text-content h4 {
 		font-size: 22px;
 	}
@@ -1003,6 +1008,13 @@ footer .inner-content p a {
 		position: absolute;
 		left: 30px;
 		top: 20px;
+	}
+	.team-members {
+		margin-top: 100px;
+		width: 200px;
+		height: 200px;
+		margin-left: 50px;
+		margin-bottom: 800px;
 	}
 	.navbar .navbar-brand {
 		width: auto;

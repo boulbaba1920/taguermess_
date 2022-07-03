@@ -48,7 +48,7 @@ class Background extends Component {
             <div className="col-md-4">
               <div className="team-member">
                 <div className="thumb-container">
-                  <img src="https://taguermessmarket.com/wp-content/uploads/2022/03/267522316_1097159891079699_4375229637917245636_n.jpg" width="200px" height="290px" alt="" />
+                  <img src="https://taguermessmarket.com/wp-content/uploads/2022/03/267522316_1097159891079699_4375229637917245636_n.jpg" width="200px" height="160px" alt="" />
                   <div className="hover-effect">
                     <div className="hover-content">
                       <ul className="social-icons">

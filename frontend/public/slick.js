@@ -1,5 +1,5 @@
 
-
+window.onload = function() {
 (function ($) {
     // USE STRICT
     "use strict";
@@ -168,3 +168,6 @@
                 
 
 })(jQuery);
+console.log("baad el load");
+}
+console.log("slick");

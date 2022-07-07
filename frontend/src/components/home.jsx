@@ -1,17 +1,19 @@
 import React, { Component } from 'react';
 import Header from '../containers/navbar';
+
 import Banner from '../containers/Banner';
 import Footer from '../containers/Footer';
 import WhyChooseUs from '../containers/WhyUS';
 import Categories from '../containers/Categories';
-import PreLoader from '../containers/PreLoader';
+import Cart from '../containers/Cart';
+import First_Header from '../containers/First_Header';
 import axios from "axios";
 import { Navigate } from "react-router-dom";
 
 
 
 export default class Home extends React.Component {
-  state = {
+ /* state = {
     prod: []
   }
 
@@ -21,56 +23,54 @@ export default class Home extends React.Component {
         const prod = res.data;
         this.setState({ prod });
       })
-  }
+  }*/
 
   render() {
     return (
       <div>
-   <PreLoader></PreLoader>
- 
-  <Header></Header>
+    
   
-  <Banner></Banner>
-  
-
+    <Header></Header>
    
+  <div>
+    <Cart></Cart>
+  <div>
+  <Banner></Banner>
+  </div>
+   
+   <Categories></Categories>
+   <section className="bg0 p-t-23 p-b-140">
+  <div className="container">
+    <div className="p-b-10">
+      <h3 className="ltext-103 cl5">
+        Product Overview
+      </h3>
+    </div>
+    <div className="flex-w flex-sb-m p-b-52">
+      <div className="flex-w flex-l-m filter-tope-group m-tb-10">
+        <button className="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1" data-filter="*">
+          All Products
+        </button>
+        <button className="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".women">
+          Women
+        </button>
+        <button className="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".men">
+          Men
+        </button>
+        <button className="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".bag">
+          Bag
+        </button>
+        <button className="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".shoes">
+          Shoes
+        </button>
+        <button className="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".watches">
+          Watches
+        </button>
+      </div>
+    </div></div></section>
 
-  <div className="latest-products">
-    <div className="container">
-      <div className="row">
-        <div className="col-md-12">
-          <div className="section-heading">
-            <h2>Latest Products</h2>
-            <a href="products.html">view all products <i className="fa fa-angle-right" /></a>
-          </div>
-        </div>
-       {
-         this.state.prod.map((data) => (
-          <div className="col-md-4">
-          <div className="product-item">
-            <a href="#"><img src="./Products/1.jpg" alt="" /></a>
-            <div className="down-content">
-            <a href="#"><h4>{data.Name}</h4></a>
-              <h6>{data.price}</h6>
-              <p>{data.desc}</p>
-            </div>
-          </div>
-        </div>
-         ))}
-      
-           
-      <div>
-     
-
-   </div>
-      
-      
-      <Categories></Categories>
-       <WhyChooseUs></WhyChooseUs>
-       
-      
-        <Footer></Footer>
-      </div></div></div></div>
+  </div>
+  </div>
 
     );
   }

@@ -5,69 +5,136 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="Hedi Ayari mail: hediayari886@gmail.com">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-
+   
+    
     <title> taguermess</title>
 
-   
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	
 
-    <link href="https://www.webhuq.com/blocks/why_choose_us_real_estate_landing_page_8474/assets/css/style.css" rel="stylesheet">
-   
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
+<link rel="icon" type="image/png" href="images/icons/xfavicon.png.pagespeed.ic.iLe_za0kEb.png" />
 
+<link rel="stylesheet" type="text/css" href="./style.css" />
 
-     <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-
-  <!-- fonts style -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-
-  <!-- font awesome style -->
-  <link href="css/font-awesome.min.css" rel="stylesheet" />
-
-  <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+	  
+	<script src="./slick.js">
+	
+	</script>
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+	
+	<script src="vendor/animsition,_js,_animsition.min.js+bootstrap,_js,_popper.js.pagespeed.jc.ED2vGulZGz.js"></script><script>eval(mod_pagespeed_8JawVzd5Oy);</script>
+	
+	<script>eval(mod_pagespeed_$PacBXQ5pm);</script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	
+	<script src="vendor/select2/select2.min.js"></script>
+	<script>
+			$(".js-select2").each(function(){
+				$(this).select2({
+					minimumResultsForSearch: 20,
+					dropdownParent: $(this).next('.dropDownSelect2')
+				});
+			})
+		</script>
+	
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+	
+	<script src="vendor,_slick,_slick.min.js+js,_slick-custom.js+vendor,_parallax100,_parallax100.js.pagespeed.jc.gjiX9dX1GK.js"></script><script>eval(mod_pagespeed_Z6dhgItSiH);</script>
+	<script>eval(mod_pagespeed_jjvC8YlSkl);</script>
+	
+	<script>eval(mod_pagespeed_Uv866_6dUG);</script>
+	<script>
+			$('.parallax100').parallax100();
+		</script>
+	
+	<script src="vendor/MagnificPopup/jquery.magnific-popup.min.js"></script>
+	<script>
+			$('.gallery-lb').each(function() { // the containers for all your galleries
+				$(this).magnificPopup({
+					delegate: 'a', // the selector for gallery item
+					type: 'image',
+					gallery: {
+						enabled:true
+					},
+					mainClass: 'mfp-fade'
+				});
+			});
+		</script>
+	
+	<script src="vendor/isotope,_isotope.pkgd.min.js+sweetalert,_sweetalert.min.js.pagespeed.jc.4v0LQHF1JD.js"></script><script>eval(mod_pagespeed_9syktgbIeO);</script>
+	
+	<script>eval(mod_pagespeed_i148H$vDXF);</script>
+	<script>
+			$('.js-addwish-b2').on('click', function(e){
+				e.preventDefault();
+			});
+	
+			$('.js-addwish-b2').each(function(){
+				var nameProduct = $(this).parent().parent().find('.js-name-b2').html();
+				$(this).on('click', function(){
+					swal(nameProduct, "is added to wishlist !", "success");
+	
+					$(this).addClass('js-addedwish-b2');
+					$(this).off('click');
+				});
+			});
+	
+			$('.js-addwish-detail').each(function(){
+				var nameProduct = $(this).parent().parent().parent().find('.js-name-detail').html();
+	
+				$(this).on('click', function(){
+					swal(nameProduct, "is added to wishlist !", "success");
+	
+					$(this).addClass('js-addedwish-detail');
+					$(this).off('click');
+				});
+			});
+	
+			/*---------------------------------------------*/
+	
+			$('.js-addcart-detail').each(function(){
+				var nameProduct = $(this).parent().parent().parent().parent().find('.js-name-detail').html();
+				$(this).on('click', function(){
+					swal(nameProduct, "is added to cart !", "success");
+				});
+			});
+		
+		</script>
+	
+	<script src="vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+	<script>
+			$('.js-pscroll').each(function(){
+				$(this).css('position','relative');
+				$(this).css('overflow','hidden');
+				var ps = new PerfectScrollbar(this, {
+					wheelSpeed: 1,
+					scrollingThreshold: 1000,
+					wheelPropagation: false,
+				});
+	
+				$(window).on('resize', function(){
+					ps.update();
+				})
+			});
+		</script>
+	
+	<script src="js/main.js"></script>
+	
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	
+	  gtag('config', 'UA-23581568-13');
+	</script>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-
-    <!-- Additional Scripts -->
-    <script src="assets/js/custom.js"></script>
-    <script src="assets/js/owl.js"></script>
-    <script src="assets/js/slick.js"></script>
-    <script src="assets/js/isotope.js"></script>
-    <script src="assets/js/accordions.js"></script>
-
-
-    <script language = "text/Javascript"> 
-      cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
-      function clearField(t){                   //declaring the array outside of the
-      if(! cleared[t.id]){                      // function makes it static and global
-          cleared[t.id] = 1;  // you could use true and false, but that's more typing
-          t.value='';         // with more chance of typos
-          t.style.color='#fff';
-          }
-      }
-    </script>
   </body>
     <!-- Bootstrap core JavaScript -->
    

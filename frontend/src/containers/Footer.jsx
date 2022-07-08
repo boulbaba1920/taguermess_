@@ -9,16 +9,106 @@ import '../components/styles.css'
 class footer extends Component {
   render() {
     return (
-        <footer>
-          <div className="container">
-            <div className="row">  <div className="col-md-12">
-                <div className="inner-content">
-                  <p>Copyright © 2021-2022 Taguermess Market</p>
-                </div>
-              </div>
+      <footer className="bg3 p-t-75 p-b-32">
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-6 col-lg-3 p-b-50">
+            <h4 className="stext-301 cl0 p-b-30">Categories</h4>
+            <ul>
+              <li className="p-b-10">
+                <a href="#" className="stext-107 cl7 hov-cl1 trans-04"> Women </a>
+              </li>
+              <li className="p-b-10">
+                <a href="#" className="stext-107 cl7 hov-cl1 trans-04"> Men </a>
+              </li>
+              <li className="p-b-10">
+                <a href="#" className="stext-107 cl7 hov-cl1 trans-04"> Shoes </a>
+              </li>
+              <li className="p-b-10">
+                <a href="#" className="stext-107 cl7 hov-cl1 trans-04"> Watches </a>
+              </li>
+            </ul>
+          </div>
+          <div className="col-sm-6 col-lg-3 p-b-50">
+            <h4 className="stext-301 cl0 p-b-30">Help</h4>
+            <ul>
+              <li className="p-b-10">
+                <a href="#" className="stext-107 cl7 hov-cl1 trans-04">
+                  Track Order
+                </a>
+              </li>
+              <li className="p-b-10">
+                <a href="#" className="stext-107 cl7 hov-cl1 trans-04"> Returns </a>
+              </li>
+              <li className="p-b-10">
+                <a href="#" className="stext-107 cl7 hov-cl1 trans-04">
+                  Shipping
+                </a>
+              </li>
+              <li className="p-b-10">
+                <a href="#" className="stext-107 cl7 hov-cl1 trans-04"> FAQs </a>
+              </li>
+            </ul>
+          </div>
+          <div className="col-sm-6 col-lg-3 p-b-50">
+            <h4 className="stext-301 cl0 p-b-30">GET IN TOUCH</h4>
+            <p className="stext-107 cl7 size-201">
+              Adresse 
+            </p>
+            <div className="p-t-27">
+              <a href="#" className="fs-18 cl7 hov-cl1 trans-04 m-r-16">
+                <i className="fa fa-facebook" />
+              </a>
+              <a href="#" className="fs-18 cl7 hov-cl1 trans-04 m-r-16">
+                <i className="fa fa-instagram" />
+              </a>
+              <a href="#" className="fs-18 cl7 hov-cl1 trans-04 m-r-16">
+                <i className="fa fa-pinterest-p" />
+              </a>
             </div>
           </div>
-        </footer>
+          <div className="col-sm-6 col-lg-3 p-b-50">
+            <h4 className="stext-301 cl0 p-b-30">Newsletter</h4>
+            <form>
+              <div className="wrap-input1 w-full p-b-4">
+                <input className="input1 bg-none plh1 stext-107 cl7" type="text" name="email" placeholder="email@example.com" />
+                <div className="focus-input1 trans-04" />
+              </div>
+              <div className="p-t-18">
+                <button className="flex-c-m stext-101 cl0 size-103 bg1 bor1 hov-btn2 p-lr-15 trans-04">
+                  Subscribe
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div className="p-t-40">
+          <div className="flex-c-m flex-w p-b-18">
+            <a href="#" className="m-all-1">
+              <img src="images/icons/xicon-pay-01.png.pagespeed.ic.xvOr_mBxdb.png" alt="ICON-PAY" />
+            </a>
+            <a href="#" className="m-all-1">
+              <img src="images/icons/xicon-pay-02.png.pagespeed.ic.rg_hDWQXGj.png" alt="ICON-PAY" />
+            </a>
+            <a href="#" className="m-all-1">
+              <img src="images/icons/xicon-pay-03.png.pagespeed.ic.oQPI6u_CWi.png" alt="ICON-PAY" />
+            </a>
+            <a href="#" className="m-all-1">
+              <img src="images/icons/xicon-pay-04.png.pagespeed.ic.lQoKBVZlWg.png" alt="ICON-PAY" />
+            </a>
+            <a href="#" className="m-all-1">
+              <img src="images/icons/xicon-pay-05.png.pagespeed.ic.x0LpVPNXiU.png" alt="ICON-PAY" />
+            </a>
+          </div>
+          <p className="stext-107 cl6 txt-center">
+            Copyright ©
+            All rights reserved  Taguermess
+            
+          </p>
+        </div>
+      </div>
+    </footer>
+    
     
       
       

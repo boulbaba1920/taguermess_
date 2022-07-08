@@ -6,7 +6,7 @@ import Footer from "../containers/Footer";
 import Heading from "../containers/pageHeadingAbout";
 import Background from "../containers/aboutUsBackground";
 import Team from "../containers/TeamMembers";
-import Feedbacks from "../containers/FeedbacksAbout"
+
 class about extends Component {
   render() {
     return (
@@ -15,7 +15,7 @@ class about extends Component {
         <Heading></Heading>
         <Background></Background>
         <Team></Team>
-       <Feedbacks></Feedbacks>
+       
         <Footer></Footer>
       </div>
     );

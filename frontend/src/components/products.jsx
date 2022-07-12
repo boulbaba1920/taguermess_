@@ -1,48 +1,28 @@
 import React, { Component } from 'react';
 import Header from '../containers/navbar';
-import 'bootstrap/dist/css/bootstrap.css';
-import '../components/styles.css'
+
+import Banner from '../containers/Banner';
 import Footer from '../containers/Footer';
+import Type from '../containers/Type';
+import TypeShop from '../containers/TypeShop';
+import Categories from '../containers/Categories';
+import Cart from '../containers/Cart';
+
+import axios from "axios";
+import { Navigate } from "react-router-dom";
 export default class Products extends React.Component {
   render() {
     return (
-        <div>
-          <Header></Header>
-          <div className="page-heading products-heading header-text">
-          <div className="container">
-           <div className="row">
-            <div className="col-md-12">
-                 <div className="text-content">
-                 <h4>new arrivals</h4>
-                 <h2>Taguermes Market</h2>
-            </div>
-           </div>
-         </div>
-       </div>
-      </div>
-
-
-      <div className="products">
-  <div className="container">
-    <div className="row">
-      <div className="col-md-12">
-        <div className="filters">
-          <ul>
-            <li className="active" data-filter="*">All Products</li>
-            <li data-filter=".new">Featured</li>
-          </ul>
-        </div>
-      </div>
-    </div></div></div>
+   
+    
+   <div>
+      <Header></Header>
      
 
-
-
-     
-
-        <Footer></Footer>
+      <Cart></Cart>
+      <TypeShop></TypeShop>
+      <Footer></Footer>
       </div>
-     
     );
   }
 }

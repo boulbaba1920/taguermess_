@@ -77,7 +77,7 @@ class navbar extends Component {
 </div>
    */
 <header>
-<div className="container-menu-desktop">
+<div className="container-menu-desktop ">
   <div className="top-bar">
     <div className="content-topbar flex-sb-m h-full container">
       <div className="left-top-bar">
@@ -99,7 +99,7 @@ class navbar extends Component {
       </div>
     </div>
   </div>
-  <div className="wrap-menu-desktop">
+  <div className={`wrap-menu-desktop  ${path == '/contact' ? 'how-shadow1' : ''} `}>
     <nav className="limiter-menu-desktop container">
       <a href="#" className="logo">
         <img src="https://scontent.ftun8-1.fna.fbcdn.net/v/t1.15752-9/291594632_1122082418343987_8988809142517773715_n.png?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_ohc=DT_2psNI6R0AX82kWds&tn=3L2xplFGnV0PQiln&_nc_ht=scontent.ftun8-1.fna&oh=03_AVI2rNWmwHw6PULl8XkXP66F7d_JlD2V2TzuMohc5SvD0g&oe=62EB3BB5" alt="IMG-LOGO" />

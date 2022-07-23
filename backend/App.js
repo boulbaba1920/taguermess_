@@ -3,7 +3,7 @@ const cors = require("cors");
 const db = require("./database/db");
 
 const controllers = require("./controllers");
-const verifyToken = require("./middlewares/verifyToken");
+//const verifyToken = require("./middlewares/verifyToken");
 
 const app = express();
 
@@ -14,7 +14,9 @@ app.use(express.json());
 //app.post("/register", controllers.register);
 //app.post("/login", controllers.login);
 app.post("/AddProducts", controllers.AddProducts);
+app.delete("/DelProduct", controllers.DelProduct);
 app.get("/GetProd",  controllers.getProducts);
+
 const PORT = 4000;
 
 app.listen(PORT, () => {
